@@ -36,7 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'payroll'
+    'payroll',
+    'EmployeePayroll'
 ]
 
 MIDDLEWARE = [
@@ -114,6 +115,8 @@ USE_L10N = True
 USE_TZ = True
 
 LOGIN_REDIRECT_URL = "/"
+
+LOGOUT_REDIRECT_URL = "/"
 
 
 # Static files (CSS, JavaScript, Images)
